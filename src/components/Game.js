@@ -10,7 +10,7 @@ export default function Game() {
     );
     const squares = Array(9).fill(null) //creating an array of 9 elements and fill them with null values
     return (
-       <div>
+       <div className="game">
            <div className="game-board">
                <Board squares={squares}/>
            </div>
